@@ -72,7 +72,7 @@ class Main {
                 // Player 1 won!!!
                 System.out.println(P1 + " has won !!!");
                 gameEnded=true;
-            } else if (hasWon(board) == '0'){
+            } else if (hasWon(board) == 'o'){
                 // Player 2 won!!!
                 System.out.println(P2 + " has won !!!");
                 gameEnded=true;
